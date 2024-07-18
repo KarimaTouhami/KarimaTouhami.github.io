@@ -56,7 +56,7 @@ class SidebarNav extends React.Component {
           </Sidenav>
         )}
         <div className="sidebar-logos" href="/">
-          <a href="mailto:gazijarin@gmail.com">
+          <a href="mailto:karimatouhami246@gmail.com">
             <EmailRoundedIcon style={{ fontSize: 20 }}></EmailRoundedIcon>
           </a>
           <a href="https://github.com/KarimaTouhami">

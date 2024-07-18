@@ -33,9 +33,8 @@ class About extends React.Component {
       "Typescript",
       "Python",
       "React.js",
-      " ",
-      " ",
-      " "
+      "JavaScript(ES6+)",
+      "C#"
     ];
 
     return (
