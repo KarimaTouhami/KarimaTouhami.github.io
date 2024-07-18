@@ -87,7 +87,7 @@ const JobList = () => {
       duration: "JUL 2022 - PRESENT",
       desc: [
         "Worked closely with stakeholders to collect and translate requirements into technical specifications, thus contributing to the digitization of the company.",
-        "Set up Flutter to create a customer-centric user interface, and Odoo for automated business process managemen"
+        "Set up Flutter to create a customer-centric user interface, and Odoo for automated business process management."
       ]
     }
   };

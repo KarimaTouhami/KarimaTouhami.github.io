@@ -5,7 +5,6 @@ import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
-import ThreeJSAnimation from './ThreeJSAnimation';
 
 class Intro extends React.Component {
   constructor() {
