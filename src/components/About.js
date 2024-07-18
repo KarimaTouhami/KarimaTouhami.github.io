@@ -33,9 +33,9 @@ class About extends React.Component {
       "Typescript",
       "Python",
       "React.js",
-      "Java",
-      "Javascript ES6+",
-      "C#"
+      " ",
+      " ",
+      " "
     ];
 
     return (
@@ -60,7 +60,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Karima Touhami" src={"/assets/me.jpg"} />
             </div>
           </div>
         </FadeInSection>
