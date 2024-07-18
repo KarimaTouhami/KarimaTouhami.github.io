@@ -19,7 +19,7 @@ html {
 
 .App {
   font-family: "NTR";
-  background-color: var(--sky-blue);
+  background-color: var(--navy);
   display: flex;
   margin: auto;
 }
@@ -30,10 +30,11 @@ html {
 
 a {
   text-decoration: none !important;
-  color: var(--selective-yellow) !important;
+  color: var(--green-bright) !important;
 }
 
 #content {
+  /* padding: 80px 200px; */
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -43,7 +44,7 @@ a {
 }
 
 ::selection {
-  background: var(--blue-green);
+  background: var(--lightest-navy); /* WebKit/Blink Browsers */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -72,12 +73,12 @@ a {
   margin-top: 39px;
   height: 1px;
   margin-left: 20px;
-  background-color: var(--blue-green);
+  background-color: var(--lightest-navy);
 }
 
 .section-title {
   font-family: "NTR", sans-serif;
-  color: var(--blue-green);
+  color: var(--lightest-slate);
   font-size: 46px;
   font-weight: bold;
 }

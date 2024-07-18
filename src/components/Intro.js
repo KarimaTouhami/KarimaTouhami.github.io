@@ -25,7 +25,6 @@ class Intro extends React.Component {
   render() {
     return (
       <div id="intro">
-        <ThreeJSAnimation></ThreeJSAnimation>
         <Typist avgTypingDelay={120}>
           <span className="intro-title">
             {"hi, "}

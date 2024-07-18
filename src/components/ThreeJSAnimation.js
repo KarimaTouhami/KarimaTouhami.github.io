@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import * as THREE from "three";
 import { AsciiEffect } from "three/examples/jsm/effects/AsciiEffect";
 import { TrackballControls } from "three/examples/jsm/controls/TrackballControls";
+import "../styles/ThreeJSAnimation.css";
 
 const ThreeJSAnimation = () => {
   const mountRef = useRef(null);
@@ -12,13 +13,16 @@ const ThreeJSAnimation = () => {
     const start = Date.now();
 
     const init = () => {
+      // Camera setup
       camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000);
       camera.position.y = 150;
       camera.position.z = 500;
 
+      // Scene setup
       scene = new THREE.Scene();
       scene.background = null;
 
+      // Lighting setup
       const pointLight1 = new THREE.PointLight(0xffffff, 3, 0, 0);
       pointLight1.position.set(500, 500, 500);
       scene.add(pointLight1);
@@ -27,30 +31,43 @@ const ThreeJSAnimation = () => {
       pointLight2.position.set(-500, -500, -500);
       scene.add(pointLight2);
 
-      sphere = new THREE.Mesh(new THREE.SphereGeometry(200, 20, 10), new THREE.MeshPhongMaterial({ flatShading: true }));
+      // Sphere setup
+      sphere = new THREE.Mesh(
+        new THREE.SphereGeometry(200, 20, 10),
+        new THREE.MeshPhongMaterial({ flatShading: true })
+      );
       scene.add(sphere);
 
-      plane = new THREE.Mesh(new THREE.PlaneGeometry(400, 400), new THREE.MeshBasicMaterial({ color: 0xe0e0e0 }));
+      // Plane setup
+      plane = new THREE.Mesh(
+        new THREE.PlaneGeometry(400, 400),
+        new THREE.MeshBasicMaterial({ color: 0xe0e0e0 })
+      );
       plane.position.y = -200;
       plane.rotation.x = -Math.PI / 2;
       scene.add(plane);
 
+      // Renderer setup
       renderer = new THREE.WebGLRenderer({ alpha: true });
       renderer.setSize(window.innerWidth, window.innerHeight);
       renderer.setAnimationLoop(animate);
 
-      effect = new AsciiEffect(renderer, ' .:-+*=%@#', { invert: true });
+      // AsciiEffect setup
+      effect = new AsciiEffect(renderer, " .:-+*=%@#", { invert: true });
       effect.setSize(window.innerWidth, window.innerHeight);
-      effect.domElement.style.color = 'white';
-      effect.domElement.style.backgroundColor = 'transparent';
+      effect.domElement.style.color = "white";
+      effect.domElement.style.backgroundColor = "transparent";
 
+      // Append effect to the DOM
       if (mountRef.current) {
         mountRef.current.appendChild(effect.domElement);
       }
 
+      // Controls setup
       controls = new TrackballControls(camera, effect.domElement);
 
-      window.addEventListener('resize', onWindowResize);
+      // Event listeners
+      window.addEventListener("resize", onWindowResize);
     };
 
     const onWindowResize = () => {
@@ -78,11 +95,11 @@ const ThreeJSAnimation = () => {
       if (mountRef.current) {
         mountRef.current.removeChild(effect.domElement);
       }
-      window.removeEventListener('resize', onWindowResize);
+      window.removeEventListener("resize", onWindowResize);
     };
   }, []);
 
-  return <div ref={mountRef} />;
+  return <div ref={mountRef} className="threejs-container" />;
 };
 
 export default ThreeJSAnimation;

@@ -22,19 +22,19 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Pufficats": {
+        title: "pufficats",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
+          "The first iteration of pufficats built with React.js leveraging Material UI.",
+        techStack: "JAVASCRIPT (REACT.JS), MATERIAL UI",
+        link: "https://github.com/KarimaTouhami/pufficats",
         open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+        image: "/assets/pufficats.png"
       },
-      Truth: {
-        title: "truth",
+      bubbles: {
+        title: "bubbles",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
+          "A Three.js simulation featuring a 3D space with animated spheres.",
         techStack: "JAVASCRIPT (THREE.JS)",
         link: "https://github.com/gazijarin/truth",
         open: "https://gazijarin.github.io/Truth/",
