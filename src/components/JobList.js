@@ -84,7 +84,7 @@ const JobList = () => {
   const experienceItems = {
     "Italia Machines": {
       jobTitle: "Software Developer Intern @",
-      duration: "JUL 2022 - PRESENT",
+      duration: "JUN 2023 - JUL 2023",
       desc: [
         "Worked closely with stakeholders to collect and translate requirements into technical specifications, thus contributing to the digitization of the company.",
         "Set up Flutter to create a customer-centric user interface, and Odoo for automated business process management."
