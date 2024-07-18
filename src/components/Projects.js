@@ -38,7 +38,7 @@ class Projects extends React.Component {
         techStack: "JAVASCRIPT (THREE.JS)",
         link: "https://github.com/gazijarin/truth",
         open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+        image: "/assets/bubbles.png"
       },
       "Tall Tales": {
         title: "tall tales",
