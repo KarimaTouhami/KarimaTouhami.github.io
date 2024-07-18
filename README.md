@@ -5,7 +5,7 @@
   karima - v1
 </h1>
 <p align="center">
-  The first iteration of karimaTouhami's portfolio built with React.js leveraging Material UI.
+  The first iteration of <a href="https://karimatouhami.github.io">karimaTouhami</a> built with React.js leveraging Material UI.
 </p>
 
 <img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="public/assets/intro.png">
