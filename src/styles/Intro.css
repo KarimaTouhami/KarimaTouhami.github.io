@@ -75,6 +75,7 @@ b {
     padding-top: unset;
     margin: 0;
     align-items: center;
+    padding-top: 300px;
   }
 
   .intro-title {
