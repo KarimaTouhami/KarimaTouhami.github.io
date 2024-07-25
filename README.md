@@ -14,7 +14,7 @@
 Karima is a personal project built with React.js and Material UI. This project serves as a portfolio and a demonstration of my skills in web development, particularly using modern JavaScript frameworks and libraries.
 
 - **Deployed Site**: [KarimaTouhami](https://karimatouhami.github.io)
-- **Final Project Blog Article**: [My Journey with Karima](https://your-blog-link.com)
+- **Final Project Blog Article**: [My portfolio: Karima Touhami](https://medium.com/@karimatouhami/my-portfolio-karima-touhami-f7de79e32add)
 - **Author's LinkedIn**: [Karima Touhami](https://www.linkedin.com/in/karimatouhami)
 
 ## Installation
