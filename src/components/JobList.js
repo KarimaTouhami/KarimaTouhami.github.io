@@ -92,7 +92,7 @@ const JobList = () => {
     },
     "SUPTEM": {
       jobTitle: "Web Development Intern @",
-      duration: "SEP 2024 - PRESENT",
+      duration: "SEP 2024 - OCTO 2024",
       desc: [
         "Collaborated with a team to design, develop, and launch the university's official website using WordPress.",
         "Customized themes, improved UI/UX, ensured mobile responsiveness, and optimized performance.",
