@@ -89,6 +89,15 @@ const JobList = () => {
         "Worked closely with stakeholders to collect and translate requirements into technical specifications, thus contributing to the digitization of the company.",
         "Set up Flutter to create a customer-centric user interface, and Odoo for automated business process management."
       ]
+    },
+    "SUPTEM": {
+      jobTitle: "Web Development Intern @",
+      duration: "SEP 2024 - PRESENT",
+      desc: [
+        "Collaborated with a team to design, develop, and launch the university's official website using WordPress.",
+        "Customized themes, improved UI/UX, ensured mobile responsiveness, and optimized performance.",
+        "Configured SEO, security, and performance plugins and integrated social media management."
+      ]
     }
   };
   
